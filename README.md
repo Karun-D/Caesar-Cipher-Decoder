@@ -16,7 +16,7 @@ cd src
 make all
 ```
 
-# Q1
+# 1
 
 ### Usage
 ```sh
@@ -34,7 +34,7 @@ This program reads in an input file or STDIN and prints a frequency table to std
 - the number of letters in the text
 - the total number of characters in the text
 
-# Q2
+# 2
 
 ### Usage
 ```sh
@@ -68,7 +68,7 @@ This program reads in an input file or STDIN and prints a frequency table to std
 
 This program computes the frequencies found in the input file, and uses the Chi-Squared formula to solve the shift that was used to encode text. The program will then take this shift and decode the text to an output file or STDOUT.
 
-# Q3
+# 3
 
 ### Usage
 ```sh
