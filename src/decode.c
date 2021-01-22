@@ -139,7 +139,7 @@ int main ( int argc, char *argv[] ) {
    if ((argc == 1) || (inputFileName == NULL)) {
 
       /* User must enter the single letter d to exit stdin */
-      printf ("Enter \"d\" to exit.\n");
+      printf ("Enter \"⌃d\" to insert EOF character.\n");
       while ( fgets ( line, MAX_SIZE, stdin ) != NULL ) {
 
          /* If user enters nothing in stdin, quit program */
