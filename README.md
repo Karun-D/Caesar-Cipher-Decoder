@@ -45,18 +45,24 @@ This program reads in an input file or STDIN and prints a frequency table to std
 -F: 
  - The name of the input file.
  - If missing use stdin (to end the input, press ^d on the keyboard, which inserts the EOF character).
+
 -O:
  - The name of the output file after decoding.
  - If missing use stdout, where the decoded text should be the last thing printed.
+
 -n:
  - Suppresses the printing of the decoded file to stdout. Useful in combination with -s or –S. 
  - If -O is included as a command line argument -n does nothing.
+
 -s:
  - Computes the Caesar shift value used to decode the message, and prints it to stdout (e.g. shift = 4). 
+
 -S:
  - Computes the original Caesar shift value used to encode the message, and prints it to stdout (e.g. shift = 4). 
+
 -t:
  - Computes the character/letter count summary and frequency table and prints them to stdout using the same format at question 1.
+
 -x: 
  - Computes the chi squared value for all shifts, printing them out along with their corresponding shift values
 
@@ -73,12 +79,15 @@ This program computes the frequencies found in the input file, and uses the Chi-
 -F: 
  - The name of the input file.
  - If missing use stdin (to end the input, press ^d on the keyboard, which inserts the EOF character).
+
 -O:
  - The name of the output file after decoding.
  - If missing use stdout, where the decoded text should be the last thing printed.
+
 -D:
  - The name of the text file to be used to find the Caesar cipher shift to be used to decode the text fields of each record.
  - If missing, the text fields are left undecoded when copied.
+
 -r:
  - Copy the records in reverse order. 
  - If missing, the records are copied in order.
