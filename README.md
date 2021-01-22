@@ -22,13 +22,13 @@ Usage: ./frequency_table -F inputFile.txt
 
 Arguments:
 	-F: 
-		• The name of the input file.
-		• If missing use stdin (to end the input, press ^d on the keyboard, which inserts the EOF character).
+		* The name of the input file.
+		* If missing use stdin (to end the input, press ^d on the keyboard, which inserts the EOF character).
 
 
 This program reads in an input file or STDIN and prints a frequency table to stdout along with the following details:
-	• the number of letters in the text
-	• the total number of characters in the text
+	* the number of letters in the text
+	* the total number of characters in the text
 
 ### Q2
 
@@ -36,23 +36,22 @@ Usage: ./decode -stx –F myfile.txt –O decodedfile.txt
 
 Arguments:
 	-F: 
-		• The name of the input file.
-		• If missing use stdin (to end the input, press ^d on the keyboard, which inserts the EOF character).
+		* The name of the input file.
+		* If missing use stdin (to end the input, press ^d on the keyboard, which inserts the EOF character).
 	-O:
-		• The name of the output file after decoding.
-		• If missing use stdout, where the decoded text should be the last thing printed.
+		* The name of the output file after decoding.
+		* If missing use stdout, where the decoded text should be the last thing printed.
 	-n:
-		• Suppresses the printing of the decoded file to stdout. Useful in combination with -s or –S. 
-		• If -O is included as a command line argument -n does nothing.
+		* Suppresses the printing of the decoded file to stdout. Useful in combination with -s or –S. 
+		* If -O is included as a command line argument -n does nothing.
 	-s:
-		• Computes the Caesar shift value used to decode the message, and prints it to stdout (e.g. shift = 4). 
+		* Computes the Caesar shift value used to decode the message, and prints it to stdout (e.g. shift = 4). 
 	-S:
-		• Computes the original Caesar shift value used to encode the message, and prints it to stdout (e.g. shift = 4).
-		• 
+		* Computes the original Caesar shift value used to encode the message, and prints it to stdout (e.g. shift = 4). 
 	-t:
-		• Computes the character/letter count summary and frequency table and prints them to stdout using the same format at question 1.
+		* Computes the character/letter count summary and frequency table and prints them to stdout using the same format at question 1.
 	-x: 
-		• Computes the chi squared value for all shifts, printing them out along with their corresponding shift values
+		* Computes the chi squared value for all shifts, printing them out along with their corresponding shift values
 
 This program computes the frequencies found in the input file, and uses the Chi-Squared formula to solve the shift that was used to encode text. The program will then take this shift and decode the text to an output file or STDOUT.
 
